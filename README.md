@@ -10,7 +10,7 @@ Here is how my script implements:
 
 1. Clean current workspace. Set up the working directory.
 2. Download the data set to working directory from the target URL. Unzip the file.
-3. oad the activity labels and features. Select the features including mean and standard deviation and assign the values to “features_need”.
+3. Load the activity labels and features. Select the features including mean and standard deviation and assign the values to “features_need”.
 4. Load the data for test and train including subject, activity and experiment result. Select columns matching “features_need”.
 5. Combine the subject, activity and experiment result for test and train respectively and get the data sets “train” and “test”.
 6. Merge “train” and “test” to get “mergeddata”.
